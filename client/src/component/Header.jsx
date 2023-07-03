@@ -23,7 +23,7 @@ const Header = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:5000/api/saveWhatsappNumber", {
+      const response = await axios.post("api/saveWhatsappNumber", {
         whatsappNumber,
       });
 
